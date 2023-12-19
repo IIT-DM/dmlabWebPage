@@ -1,0 +1,62 @@
+[
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Aman Rangapur, Haoran Wang, Kai Shu.",
+        "Title": "FIN-FACT: A Benchmark Dataset for Multimodal Financial Fact Checking and Explanation Generation",
+        "conference": "LREC-COLIN (Submission under review)",
+        "Url": "https://arxiv.org/pdf/2309.08793.pdf",
+        "Code": "https://github.com/IIT-DM/Fin-Fact",
+        "Image": "https://i.postimg.cc/Wz04Ff8s/temp-Image6-Bzfff.jpg"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Haoran Wang, Kai Shu.",
+        "Title": "Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignment",
+        "conference": "ACM (Submission under review)",
+        "Url": "https://arxiv.org/pdf/2311.09433.pdf",
+        "Code": "",
+        "Image": "https://i.postimg.cc/NFtYmBpL/Screenshot-2023-12-14-at-8-16-15-PM.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Canyu Chen, Kai Shu.",
+        "Title": "Combating Misinformation in the Age of LLMs: Opportunities and Challenges",
+        "conference": "ACM (Submission under review)",
+        "Url": "https://arxiv.org/pdf/2311.05656.pdf",
+        "Code": "",
+        "Image": "https://i.postimg.cc/7L4pKmSQ/Screenshot-2023-12-14-at-8-21-21-PM.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Canyu Chen, Kai Shu.",
+        "Title": "Can LLM-Generated Misinformation be Detected?",
+        "conference": "ACM (Submission under review)",
+        "Url": "https://arxiv.org/pdf/2309.13788.pdf",
+        "Code": "https://llm-misinformation.github.io/",
+        "Image": "https://i.postimg.cc/7LCmMzWQ/Screenshot-2023-12-14-at-8-24-40-PM.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Aman Rangapur, Haoran Wang, Kai Shu.",
+        "Title": "Investigating Online Financial Misinformation and Its Consequences: A Computational Perspective",
+        "conference": "Looking for ACM Survey Track",
+        "Url": "https://arxiv.org/pdf/2309.12363.pdf",
+        "Code": "",
+        "Image": "https://i.postimg.cc/3J5NKHhy/Screenshot-2023-12-14-at-8-32-08-PM.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "SJ Dillon, Yueqing Liang, H. Russell Bernard, Kai Shu.",
+        "Title": "Investigating Gender Euphoria and Dysphoria on TikTok: Characterization and Comparison",
+        "conference": "ACM (Submission under review)",
+        "Url": "https://arxiv.org/pdf/2305.19552.pdf",
+        "Code": "",
+        "Image": "https://i.postimg.cc/NFwtwBXB/Screenshot-2023-12-14-at-8-34-57-PM.png"
+    }
+]

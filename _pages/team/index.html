@@ -1,0 +1,89 @@
+---
+title: Team
+layout: page
+permalink: /team/
+---
+<style>
+    body {
+  font-family: 'Raleway', sans-serif;;
+  font-style: thin;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCkIT4ttDfCmxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+</style>
+<!-- Staff -->
+<h2 class="mb-3"><a id="staff"></a></h2>
+
+{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- Researchers -->
+<!-- <h2 class="mb-3"><a id="researcher"></a>Researchers</h2>
+
+{% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul> -->
+
+<!-- Students -->
+<h2 class="mb-3"><a id="student"></a>PhD Students</h2>
+
+{% assign members = site.posts | where: 'category', 'phd-student' | sort: 'title' %}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- Master -->
+<h2 class="mb-3"><a id="Master"></a>Master Students</h2>
+
+{% assign members = site.posts | where: 'category', 'Master' | sort: 'date' %}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>

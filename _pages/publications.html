@@ -1,0 +1,29 @@
+---
+<!-- title: Publications -->
+layout: page
+excerpt: Data Mining Lab -- Publications.
+permalink: /publications/
+---
+<style>
+    body {
+  font-family: 'Raleway', sans-serif;;
+  font-style: thin;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCkIT4ttDfCmxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+</style>
+<ul class="list-unstyled">
+    {% assign pub_list = site.data.publications | sort: 'Publication Year' | group_by: 'Publication Year' | reverse %}
+
+    {% for group in pub_list %}
+
+        {% assign year = group.name | to_integer %}
+
+        <h3 class="mt-4">{{ year }}</h3>
+        {% for publi in group.items %}
+            {%- include publication.html -%}
+        {% endfor %}
+
+    {% endfor %}
+</ul>

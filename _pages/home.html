@@ -1,0 +1,322 @@
+---
+title: Data Mining Lab
+layout: homelay
+permalink: /
+---
+
+<style>
+  body {
+font-family: 'Raleway', sans-serif;;
+font-style: thin;
+font-weight: 100;
+src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCkIT4ttDfCmxA.woff2) format('woff2');
+unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05)
+}
+
+.well blockquote {
+    border-color: #ddd;
+    border-color: rgba(0,0,0,0.15)
+}
+
+.well-lg {
+    padding: 24px;
+    border-radius: 5px
+}
+
+.well-sm {
+    padding: 9px;
+    border-radius: 2px
+}
+figure {
+    margin: 0
+}
+
+img {
+    vertical-align: middle
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.img-rounded {
+    border-radius: 5px
+}
+
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto
+}
+
+.img-circle {
+    border-radius: 50%
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.container-fluid:before,.container-fluid:after {
+    content: " ";
+    display: table
+}
+
+.container-fluid:after {
+    clear: both
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.row:before,.row:after {
+    content: " ";
+    display: table
+}
+
+.row:after {
+    clear: both
+}
+
+.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
+    float: left
+}
+
+.col-xs-1 {
+    width: 8.3333333333%
+}
+
+.col-xs-2 {
+    width: 16.6666666667%
+}
+
+.col-xs-3 {
+    width: 25%
+}
+
+.col-xs-4 {
+    width: 33.3333333333%
+}
+
+.col-xs-5 {
+    width: 41.6666666667%
+}
+
+.col-xs-6 {
+    width: 50%
+}
+
+.col-xs-7 {
+    width: 58.3333333333%
+}
+
+.col-xs-8 {
+    width: 66.6666666667%
+}
+
+.col-xs-9 {
+    width: 75%
+}
+
+.col-xs-10 {
+    width: 83.3333333333%
+}
+
+.col-xs-11 {
+    width: 91.6666666667%
+}
+
+.col-xs-12 {
+    width: 100%
+}
+
+.col-xs-pull-0 {
+    right: auto
+}
+
+.col-xs-pull-1 {
+    right: 8.3333333333%
+}
+
+.col-xs-pull-2 {
+    right: 16.6666666667%
+}
+
+.col-xs-pull-3 {
+    right: 25%
+}
+
+.col-xs-pull-4 {
+    right: 33.3333333333%
+}
+
+.col-xs-pull-5 {
+    right: 41.6666666667%
+}
+
+.col-xs-pull-6 {
+    right: 50%
+}
+
+.col-xs-pull-7 {
+    right: 58.3333333333%
+}
+
+.col-xs-pull-8 {
+    right: 66.6666666667%
+}
+
+.col-xs-pull-9 {
+    right: 75%
+}
+
+.col-xs-pull-10 {
+    right: 83.3333333333%
+}
+
+.col-xs-pull-11 {
+    right: 91.6666666667%
+}
+
+.col-xs-pull-12 {
+    right: 100%
+}
+	body {
+  font-family: 'Raleway', sans-serif;;
+  font-style: thin;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCkIT4ttDfCmxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	.navbar-link {
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 600;
+	  letter-spacing: .05rem;
+	  margin-right: 110px;
+	  text-decoration: none;
+	  /* line-height: 6.5rem; */
+	  color: #222; }
+</style>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
+
+
+<!-- <div class="mt-3">
+        <div>
+	<img class="img-cover mb-3" src="/assets/images/main.jpg">
+
+<h1 class="text-center mb-5">Data Mining Lab</h1> -->
+
+<div class="col-sm-12 clearfix">
+		<div class="well">
+		  <p>We are ACTIVELY looking for multiple self-motivated Master/PostDoc students to conduct research in the area of data mining, generative AI, machine learning, natural language processing and social computing.</p>
+		  <strong><a href="https://forms.gle/YWomuSvzCYgJGZJ66" target="_blank">Apply Here!</a></strong>
+		</div>
+	  </div>
+	  <p><strong>Data Mining Laboratory (DM-Lab)</strong> is a part of the Illinois Institute of Technology (IIT) located in Chicago, IL. Our research is dedicated to the development and application of novel data mining techniques, enabling machines to intelligently analyze, understand, and interact with complex datasets from various domains.</p>
+    
+<p>Our primary goal is to create theoretical and practical solutions for data mining and its diverse applications, including social computing, natural language processing, and machine learning. We are particularly interested in AI for social good, focusing on issues such as dis-/misinformation, privacy, security, and healthcare.</p>
+  
+<p>In addition, we are committed to building trustworthy AI models that emphasize interpretability, robustness, and fairness. We also specialize in learning with imperfect data, employing techniques such as self-/weakly-supervised learning, meta-learning, and data augmentation.</p>
+  
+<p>We are also deeply involved in representation learning, including text/graph mining, multi-modal learning, and adversarial learning. Furthermore, we are engaged in the development and analysis of large foundation models, with a focus on factuality, reliability, and safety. We look forward to pushing the boundaries of data mining and making significant contributions to the field and society at large. Join us on this exciting journey!</p>
+</div>
+
+<div class="row">
+
+<div class="col-sm-6 clearfix">
+    <div class="well">
+        <p>[12/2023] One paper accepted at <a href="https://dl.acm.org/doi/proceedings/10.1145/3543507">Proceedings of The 2023 ACM Web Conference (WWW 2023).</a></p>
+        <p>Attacking Fake News Detectors via Manipulating News Social Engagement.</p>
+        <p><i>Haoran Wang, Yingtong Dou, Canyu Chen, Lichao Sun, Philip S. Yu and Kai Shu.</i></p>
+    </div>
+</div>
+
+<div class="col-sm-6 clearfix">
+    <div class="well">
+        <p>[11/2023] One paper accepted at <a href="https://2023.emnlp.org/">Empirical Methods in Natural Language Processing.</a></p>
+        <p>Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models.</p>
+        <p><i>Haoran Wang, Kai Shu</i></p>
+    </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+<div class="col-sm-6 clearfix">
+    <div class="well">
+        <p>[06/2023] One paper accepted at <a href="https://2023.eacl.org">Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023).</a></p>
+        <p>PromptDA: Label-guided Data Augmentation for Prompt-based Few Shot Learners.</p>
+        <p><i>Canyu Chen, Kai Shu.</i></p>
+    </div>
+</div>
+
+<div class="col-sm-6 clearfix">
+    <div class="well">
+        <p>[11/2023] Received a DHS grant through <a href="https://caoe.asu.edu">CAOE </a>to study combating misinformation in LLM era.</p>
+        <p>[08/2023] Received a <a href="https://www.energy.gov/funding-financing">DOE </a>grant to study machine learning surrogate modeling for distributed system simulations.
+        <br>
+        <br>
+        Received the <a href="https://apply.knowinnovation.com/darpaaiforward/">DARPA AI Forward</a> Scholarship.</p>
+    </div>
+    </div>
+
+</div>
+
+</div>	
+</html>
