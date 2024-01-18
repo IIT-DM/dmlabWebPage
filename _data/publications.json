@@ -1,62 +1,162 @@
-[
-    {
+[   {
         "Item Type": "journalArticle",
-        "Publication Year": 2023.0,
-        "Author": "Aman Rangapur, Haoran Wang, Kai Shu.",
-        "Title": "FIN-FACT: A Benchmark Dataset for Multimodal Financial Fact Checking and Explanation Generation",
-        "conference": "LREC-COLIN (Submission under review)",
-        "Url": "https://arxiv.org/pdf/2309.08793.pdf",
-        "Code": "https://github.com/IIT-DM/Fin-Fact",
-        "Image": "https://i.postimg.cc/Wz04Ff8s/temp-Image6-Bzfff.jpg"
+        "Publication Year": 2024.0,
+        "Author": "Canyu Chen, Kai Shu.",
+        "Title": "Can LLM-Generated Misinformation be Detected?",
+        "conference": "ICLR",
+        "Url": "https://arxiv.org/pdf/2309.13788.pdf",
+        "Code": "https://llm-misinformation.github.io/",
+        "Image": "/repositoryname/assets/images/publications/LLMLD.png"
     },
     {
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
         "Author": "Haoran Wang, Kai Shu.",
         "Title": "Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignment",
-        "conference": "ACM (Submission under review)",
-        "Url": "https://arxiv.org/pdf/2311.09433.pdf",
-        "Code": "",
-        "Image": "https://i.postimg.cc/NFtYmBpL/Screenshot-2023-12-14-at-8-16-15-PM.png"
+        "conference": "EMNLP",
+        "Url": "https://aclanthology.org/2023.findings-emnlp.416.pdf",
+        "Code": "https://github.com/wang2226/FOLK",
+        "Image": "/repositoryname/assets/images/publications/BAA.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Canyu Chen, Kai Shu.",
+        "Title": "PromptDA: Label-guided Data Augmentation for Prompt-based Few-shot Learners.",
+        "conference": "Workshop at NeurIPS 2022, EACL",
+        "Url": "https://arxiv.org/abs/2205.09229",
+        "Code": "https://github.com/canyuchen/PromptDA",
+        "Image": "/repositoryname/assets/images/publications/PMPTDA.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Aman Rangapur, Haoran Wang, Kai Shu.",
+        "Title": "FIN-FACT: A Benchmark Dataset for Multimodal Financial Fact Checking and Explanation Generation",
+        "conference": "Preprint",
+        "Url": "https://arxiv.org/pdf/2309.08793.pdf",
+        "Code": "https://github.com/IIT-DM/Fin-Fact",
+        "Image": "/repositoryname/assets/images/publications/finfact.jpg"
+    },
+    {
+        "Item Type": "journalArticle",         
+        "Publication Year": 2023.0,         
+        "Author": "Haoran Wang, Yingtong Dou, Canyu Chen, Lichao Sun, Philip S. Yu, Kai Shu",         
+        "Title": "Attacking Fake News Detectors via Manipulating News Social Engagement",         
+        "conference": "ACM Web Conference",         
+        "Url": "https://dl.acm.org/doi/pdf/10.1145/3543507.3583868",         
+        "Code": "https://github.com/hwang219/AttackFakeNews",
+        "Image": "/repositoryname/assets/images/publications/AFNBN.png"         
     },
     {
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
         "Author": "Canyu Chen, Kai Shu.",
         "Title": "Combating Misinformation in the Age of LLMs: Opportunities and Challenges",
-        "conference": "ACM (Submission under review)",
+        "conference": "Preprint",
         "Url": "https://arxiv.org/pdf/2311.05656.pdf",
-        "Code": "",
-        "Image": "https://i.postimg.cc/7L4pKmSQ/Screenshot-2023-12-14-at-8-21-21-PM.png"
+        "Code": "#",
+        "Image": "/repositoryname/assets/images/publications/CMLLM.png"
     },
     {
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
-        "Author": "Canyu Chen, Kai Shu.",
-        "Title": "Can LLM-Generated Misinformation be Detected?",
-        "conference": "ACM (Submission under review)",
-        "Url": "https://arxiv.org/pdf/2309.13788.pdf",
-        "Code": "https://llm-misinformation.github.io/",
-        "Image": "https://i.postimg.cc/7LCmMzWQ/Screenshot-2023-12-14-at-8-24-40-PM.png"
+        "Author": "Yueqing Liang, Canyu Chen, Tian Tian, Kai Shu.",
+        "Title": "Fair Classification via Domain Adaptation: A Dual Adversarial Learning Approach",
+        "conference": "Frontiers in Big Data",
+        "Url": "https://www.frontiersin.org/articles/10.3389/fdata.2022.1049565/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Big_Data&id=1049565",
+        "Code": "",
+        "Image": "/repositoryname/assets/images/publications/FD23.png"
     },
     {
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
         "Author": "Aman Rangapur, Haoran Wang, Kai Shu.",
         "Title": "Investigating Online Financial Misinformation and Its Consequences: A Computational Perspective",
-        "conference": "Looking for ACM Survey Track",
+        "conference": "Preprint",
         "Url": "https://arxiv.org/pdf/2309.12363.pdf",
         "Code": "",
-        "Image": "https://i.postimg.cc/3J5NKHhy/Screenshot-2023-12-14-at-8-32-08-PM.png"
+        "Image": "/repositoryname/assets/images/publications/IOFMS.png"
     },
+    {   
+        "Item Type": "conferenceArticle",         
+        "Publication Year": 2023.0,         
+        "Author": "Xiongxiao Xu, Kaize Ding, Canyu Chen, Kai Shu.",         
+        "Title": "MetaGAD: Learning to Meta-Transfer for Few-shot Graph Anomaly Detection",         
+        "conference": "Preprint",         
+        "Url": "https://arxiv.org/abs/2305.10668", 
+        "Code": "",
+        "Image": "/repositoryname/assets/images/publications/METAGAD23.png"      
+    },
+    {   
+        "Item Type": "journalArticle",         
+        "Publication Year": 2023.0,         
+        "Author": "Baixiang Huang, Bryan Hooi, Kai Shu.",         
+        "Title": "TAP: A Comprehensive Data Repository for Traffic Accident Prediction in Road Networks",         
+        "conference": "Preprint",         
+        "Url": "https://arxiv.org/abs/2304.08640",         
+        "Code": "https://github.com/baixianghuang/travel", 
+        "Image": "/repositoryname/assets/images/publications/TAPBH23.png"        
+    },
+    {   
+        "Item Type": "conferenceArticle",         
+        "Publication Year": 2023.0,         
+        "Author": "Xiongxiao Xu, Xin Wang, Elkin Cruz-Camacho, Christopher D. Carothers, Kevin A. Brown, Robert B. Ross, Zhiling Lan, Kai Shu.",         
+        "Title": "Machine Learning for Interconnect Network Traffic Forecasting: Investigation and Exploitation",         
+        "conference": "SIGSIM-PADS",         
+        "Url": "https://xiongxiaoxu.github.io/publications/PADS23_ML.pdf",   
+        "Code": "",
+        "Image": "/repositoryname/assets/images/publications/MLINLM23.png"    
+    },
+    {   
+        "Item Type": "conferenceArticle",         
+        "Publication Year": 2023.0,         
+        "Author": "Elkin Cruz-Camacho, Kevin A. Brown, Xin Wang, Xiongxiao Xu, Kai Shu, Zhiling Lan, Robert B. Ross, Christopher D. Carothers.",         
+        "Title": "Hybrid PDES Simulation of HPC Networks using Zombie Packets.",         
+        "conference": "SIGSIM-PADS",         
+        "Url": "https://xiongxiaoxu.github.io/publications/PADS23_Zombie.pdf",
+        "Code": "", 
+        "Image": "/repositoryname/assets/images/publications/ZOMBXX23.png"      
+    },
+
     {
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
         "Author": "SJ Dillon, Yueqing Liang, H. Russell Bernard, Kai Shu.",
         "Title": "Investigating Gender Euphoria and Dysphoria on TikTok: Characterization and Comparison",
-        "conference": "ACM (Submission under review)",
+        "conference": "Preprint",
         "Url": "https://arxiv.org/pdf/2305.19552.pdf",
         "Code": "",
-        "Image": "https://i.postimg.cc/NFwtwBXB/Screenshot-2023-12-14-at-8-34-57-PM.png"
+        "Image": "/repositoryname/assets/images/publications/IGED.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2022.0,
+        "Author": "Canyu Chen, Yueqing Liang, Xiongxiao Xu, Shangyu Xie, Ashish Kundu, Ali Payani, Yuan Hong, Kai Shu.",
+        "Title": "When Fairness Meets Privacy: Fair Classification with Semi-Private Sensitive Attributes",
+        "conference": "NeurIPS",
+        "Url": "https://arxiv.org/abs/2207.08336",
+        "Code": "",
+        "Image": "/repositoryname/assets/images/publications/WFMP22.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2022.0,
+        "Author": "Kay Liu, Yingtong Dou, Yue Zhao, Xueying Ding, Xiyang Hu, Ruitong Zhang, Kaize Ding, Canyu Chen, Hao Peng, Kai Shu, Lichao Sun, Jundong Li, George H. Chen, Zhihao Jia, Philip S. Yu.",
+        "Title": "BOND: Benchmarking Unsupervised Outlier Node Detection on Static Attributed Graphs",
+        "conference": "NeurIPS",
+        "Url": "https://arxiv.org/abs/2206.10071",
+        "Code": "https://github.com/pygod-team/pygod",
+        "Image": "/repositoryname/assets/images/publications/BOND22CC.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2022.0,
+        "Author": "Canyu Chen, Haoran Wang, Matthew Shapiro, Yunyu Xiao, Fei Wang, Kai Shu.",
+        "Title": "Combating Health Misinformation in Social Media: Characterization, Detection, Intervention, and Open Issues",
+        "conference": "Preprint",
+        "Url": "https://arxiv.org/abs/2211.05289",
+        "Code": "",
+        "Image": "/repositoryname/assets/images/publications/HELMISSUR22.png"
     }
 ]
