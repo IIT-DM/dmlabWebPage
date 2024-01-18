@@ -93,7 +93,7 @@
         "Publication Year": 2023.0,         
         "Author": "Baixiang Huang, Bryan Hooi, Kai Shu.",         
         "Title": "TAP: A Comprehensive Data Repository for Traffic Accident Prediction in Road Networks",         
-        "conference": "Preprint",         
+        "conference": "ACM-SIGSPATIAL",         
         "Url": "https://arxiv.org/abs/2304.08640",         
         "Code": "https://github.com/baixianghuang/travel", 
         "Image": "/repositoryname/assets/images/publications/TAPBH23.png"        
