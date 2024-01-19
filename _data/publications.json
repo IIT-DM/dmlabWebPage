@@ -12,9 +12,19 @@
         "Item Type": "journalArticle",
         "Publication Year": 2023.0,
         "Author": "Haoran Wang, Kai Shu.",
-        "Title": "Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignment",
+        "Title": "Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models",
         "conference": "EMNLP",
         "Url": "https://aclanthology.org/2023.findings-emnlp.416.pdf",
+        "Code": "https://github.com/wang2226/FOLK",
+        "Image": "/dmlabWebPage/assets/images/publications/FOLKHHEMNLP23.png"
+    },
+    {
+        "Item Type": "journalArticle",
+        "Publication Year": 2023.0,
+        "Author": "Haoran Wang, Kai Shu.",
+        "Title": "Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignment",
+        "conference": "Preprint",
+        "Url": "https://arxiv.org/abs/2311.09433",
         "Code": "https://github.com/wang2226/FOLK",
         "Image": "/dmlabWebPage/assets/images/publications/BAA.png"
     },
